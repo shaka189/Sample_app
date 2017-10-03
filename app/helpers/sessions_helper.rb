@@ -25,7 +25,7 @@ module SessionsHelper
     end
   end
 
-  # Returns true if the user is logged in, false otherwise.
+  # Returns true if the user is logged in, false otherwise. Test git
   def logged_in?
     !current_user.nil?
   end
